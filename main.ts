@@ -49,6 +49,8 @@ f f f f f f f f f f f f f f f f
 f f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f f 
 `, SpriteKind.object)
+jared.setPosition(300, 400)
+trampo.setPosition(300, 520)
 game.onUpdate(function () {
     jared.x += controller.dx()
 })
